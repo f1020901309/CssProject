@@ -1,0 +1,336 @@
+body{
+	padding:0;
+	margin: 0;
+}
+
+header{
+	width: 100%;
+	height: 270px;
+	border: 1px red solid;
+}
+header a{
+
+}
+.div1_header{
+	width: 940px;
+	height: 60px;
+	border: 1px green solid;
+	margin: 30px auto 0;
+	position: relative;
+}
+.div1_header_logo{
+width: 154px;
+height: 30px;
+float: left;
+border: 1px blue solid;
+}
+.div1_header_input{
+	width: 275px;
+	height: 35px;
+	float: left;
+	border: 1px black solid;
+
+}
+
+.div1_header_daohang{
+	border: 1px gray solid;
+	width: 480px;
+	height: 20px;
+	float: right;
+	margin-top: 5px;
+
+}
+
+
+.div2_header{
+	width: 100%;
+	height: 180px;
+	background-size: 100% 180px;
+	border: 1px red solid;
+
+}
+.div2_header-main{
+	width: 940px;
+	height: 180px;
+	border: 1px solid #789685;
+	margin: 0 auto;
+}
+.div_header2_img{
+	// margin: 0 auto ;
+	width: 400px;
+	height: 180px;
+	float: left;
+	border: 1px yellow solid;
+	
+}
+.div2_header2{
+	height: 180px;
+	float: left;
+	width: 235px;
+	border: 1px #F9F9F9 solid;
+
+}
+
+
+.div_div2_header2{
+	height: 96px;
+	border: 1px blue solid;
+	padding-left: 28px;
+	padding-top: 15px;
+}
+
+
+
+.div3_header2{
+	width: 295px;
+	height: 180px;
+	position: relative;
+	float: right;
+	border: 1px red solid;
+}
+
+.input1_div3_header2{
+	margin-top: 25px;
+}
+
+
+
+
+
+.body0{
+	width: 100%;
+
+	border: 1px purple solid;
+
+}
+
+
+
+
+
+
+
+
+.body1{
+	height: 625px;
+	width: 100%;
+	border: 1px red solid;
+
+}
+.body1_1{
+	height: 625px;
+	width: 940px;
+border: 1px blue solid;
+	margin: 0 auto ;
+}
+.div1_body1{
+	height: 90px;
+	width: 940px;
+	border: 1px #445522 solid;
+	margin-bottom: 10px;
+}
+
+
+
+.div2_body1{
+	position: relative;
+	width: 655px;
+	height: 515px;
+	float: left;
+	border: 1px black solid;
+
+}
+.span_div2_body1{
+	display: block;
+	width: 640px;
+	height: 30px;
+	border: 1px #61f3f3 solid;
+}
+
+.div1_div2_body1{
+	width: 360px;
+	height: 400px;
+	position: absolute;
+	border: 1px green solid;
+
+}
+
+
+.div2_div2_body1{
+	width: 275px;
+	height: 393px;
+	position: absolute;
+	padding-top: 10px;
+	margin-left: 366px;
+	border: 1px #666666 solid;
+
+}
+
+
+
+.div3_body1{
+	height: 515px;
+	width: 280px;
+	float: left;
+	border: 1px red solid;
+
+}
+.div1_div3_body1{
+	width: 265px;
+	height: 125px;
+	margin: 0px ;
+	margin-bottom: 10px;
+	float: right;
+	border: 1px blue solid;
+}
+
+.div2_div3_body1{
+	width: 265px;
+	height: 320px;
+	border: 1px #444444 solid;
+	margin: 10px 0px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+.body2{
+	height: 615px;
+	width: 100%;
+	background: #F7F7F7;
+	border: 1px red solid;
+
+	
+}
+.body2_1{
+	height: 570px;
+	width: 940px;
+	margin: 0 auto ;
+	position: relative;
+	padding-top: 45px;
+	border: 1px #777777 solid;
+}
+
+
+.span_body2_1{
+	display: block;
+	width: 135px;
+	height: 30px;
+	border: 1px #567887 solid;
+	float: left;
+}
+
+.div2_body2_1{
+	height: 505px;
+	width: 800px;
+	border: 1px #444444 solid;
+	float: right;
+}
+.span_div2_body2_1{
+	display: block;
+	width: 800px;
+	height: 30px;
+	border: 1px #567887 solid;
+}
+
+
+.body3{
+	height: 615px;
+	width: 100%;
+	border: 1px red solid;
+
+	
+}
+.body3_1{
+	padding-top: 45px;
+	height: 570px;
+	width: 940px;
+	margin: 0 auto ;
+	position: relative;
+	border: 1px #237887 solid;
+}
+.div1_body3_1{
+	width: 100px;
+	height: 300px;
+	float: left;
+	border: 1px #417887 solid;
+}
+
+
+.div2_body3_1{
+	width: 525px;
+	height: 555px;
+	margin-left: 30px;
+		float: left;
+		border: 1px #177887 solid;
+}
+
+.span_div2_body3_1{
+	display: block;
+	width: 525px;
+	height: 30px;
+	border: 1px #667887 solid;
+}
+.div1_div2_body3_1{
+	width: 525px;
+	height: 535px;
+	border: 1px #767887 solid;
+}
+
+
+.div3_body3_1{
+	width: 245px;
+	height: 555px;
+	float: right;
+	border: 1px #512387 solid;
+}
+.div1_div3_body3_1{
+	width: 245px;
+	height: 165px;
+	border: 1px #117887 solid;
+}
+
+
+
+
+
+footer{
+	width: 100%;
+	height: 170px;
+	border: 1px red solid;
+}
+
+.div0_footer{
+	height: 170px;
+	width: 940px;
+	margin: 0 auto ;
+	border: 1px green solid;
+}
+.div0_footer  hr{
+	border:1px #DCDCDC dashed;
+}
+.div1_div0_footer{
+	height: 130px;
+	width: 500px;
+	float: left;
+	border: 1px yellow solid;
+}
+
+
+
+
+
+
+.div2_div0_footer{
+	height: 130px;
+	width: 435px;
+	float: right;
+	border: 1px blue solid;
+}
+
+

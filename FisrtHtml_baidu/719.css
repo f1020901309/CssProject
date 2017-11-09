@@ -1,0 +1,277 @@
+
+
+        .div_1{
+        	width: 1300px;
+        	height:  650px;
+        		}
+        .div_2{
+            width: 1300px;
+            height: 60px;
+            }
+        .div_2_1{
+        	width: 1150px;
+        	height: 60px;
+        	text-align: right;
+            float:left;
+        	   }
+
+        .div_3{
+        	width: 1300px;
+        	height: 153px;
+            /* text-align:center; */
+            float:left;
+            }
+        .div_3_2{
+            width: 240px;
+            height: 80px;
+            margin: 0 auto;
+                }
+     	.div_4{
+			width: 1300px;
+			height: 70px;
+            text-align:center;
+            float:left;
+            }
+            
+     	.div_5{
+     		width: 1300px;
+     		height: 170px;
+            float:left;
+            }
+
+     	.div_6{
+     		width: 1300px;
+     		height: 100px;
+            text-align:center;
+            float:left;
+            }
+
+     	.div_7{
+     		width: 1300px;
+     		height: 80px;
+            float:left;
+            }
+ 
+         a:link{
+                     color:black;      
+                } 
+         a:visited{
+           
+                    color:black;
+               }
+         a:hover{
+                
+                    color:blue;
+                }
+         a:active{
+                
+                    color:green;
+                }
+/*      :link 未访问的链接
+        :visited 访问过的链接
+        :hover 鼠标悬停
+        :active 鼠标点击
+        :focus 元素选中 */
+     		
+     	.ul_1 li{
+     		float:right;
+     		list-style:none;
+            font-size:13px;
+            margin-left:18px;
+            padding-top:16px;
+            padding-right:0px;
+            margin-right:0px;
+     		     }
+
+
+       /*  下拉菜单的"按钮"的属性设置（如 设置 、更多产品） */
+        .drop_a {
+            font-size: 14px;
+           cursor: pointer;/* 光标悬浮时的样式为手指状 */
+            /* margin-left:15px; */
+            padding-left: 15px;
+                }
+
+        /* 按钮所在“块”的属性 */
+        .dropdown {
+            position: relative;/* 是相对定位，是相对于前面的容器定位的。 */
+            display: inline-block;/* 将对象呈递为内联对象，但是对象的内容作为块对象呈递。
+                                    旁边的内联对象会被呈递在同一行内，允许空格。 */
+            width: 50px;
+            height: 60px;
+            text-align:center;
+            float:left;
+            margin-top:14px;
+            /* margin-left:15px; */
+                    }
+        
+        /* 下拉内容的所在“块”的属性设置 */
+        .dropdown-content {
+           display: none;  /* 隐藏容器（这里指的是放下拉内容div） */
+            position: absolute; /* 绝对定位 */
+            background-color: #f9f9f9;
+            /* top:2px; */
+            min-width:80px;/* 设置元素的最小宽度 */
+           ;/* 向框添加一个或多个阴影 */
+
+           
+              
+                            }
+        .div_san{
+          margin:10px auto;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+          border:1px #A3A3A3 solid;
+
+                }
+            .div_san em,.div_san span{
+            display:block;
+            font-family:SimSun;
+            height:12px;
+            cursor:default; /* 图标样式为普通箭头状 */
+            overflow:hidden;/* overflow属性规定当内容溢出元素框时发生的事情。 */
+                    /* hidden:内容会被修剪，并且其余内容是不可见的。 */
+            _position:relative;
+            margin-left:-14px;
+            font-size:30px;
+                    }
+            .div_san em{
+            
+            margin-top:-13px;
+            color:#A3A3A3;
+            font-style:normal;
+            }
+            .div_san span{
+                margin-top:-10px;
+                color:white;
+            }
+
+
+        /* 下列内容的属性设置 */
+        .dropdown-content a {
+            color: black;
+            padding: 5px 0px;
+            text-decoration: none;
+            display: block;/* 表示该元素显示为一个块级元素，单独占一行 */
+            font-size:10px;
+            margin: 0px;
+
+                            }
+        .dropdown:hover .dropdown-content {display: block;}
+        /* 鼠标悬浮在按钮处悬浮，显示下拉菜单内容 */
+        .dropdown-content a:hover {background-color: #3388FF}
+        /* 鼠标悬浮在下拉菜单内容时，内容背景颜色改变 */
+        
+
+
+
+
+
+        .dropbtn {
+            font-size: 14px;
+           cursor: pointer;
+            background-color:#3385FF;
+            color: white;
+            border: none;
+                    }
+
+        .dropdown1 {
+            position: relative;
+            display: inline-block;
+            width: 80px;
+            height: 60px;
+            text-align:center;
+            float:left;
+            margin-top:14px;
+            margin-left:15px;
+                    }
+
+        .dropdown1-content {
+            font-size:10px;
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width:80px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                            }
+
+        .dropdown1-content img {
+            margin-top:5px;
+            display: block;
+                                }
+        .dropdown1-content a{
+            text-decoration:none; 
+            color: #5C6270;
+                            }
+
+        .dropdown1-content a:hover {
+            text-decoration: underline;
+            background-color: #f1f1f1}
+
+        .dropdown1:hover .dropdown1-content {display: block;}
+        .dropdown1:hover .dropbtn{
+                                background:#F9F9F9;
+                                color: black;
+                                
+        }
+        .dropdown1:hover{
+            background:#F9F9F9;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+        .dropdown1:hover .dropdown1{
+       
+        }  
+        
+
+         .span_1{
+            margin: 0;
+       /*  border:1px #CCCCCC solid; */
+       /*  display: inline-block;  */
+        position: relative;
+        }
+        .cam{
+            display: inline-block;
+            width: 18px;
+            height: 16px;
+            position: absolute;
+            right: 3px;
+            
+            bottom: 2px;
+            background-image: url(images/camera.png);
+            background-repeat: no-repeat;
+           
+
+        }
+         .button{
+            margin-left: 0;
+            font-size: 16px;
+            width: 100px;
+            height: 36px;
+            background:#3385FF; 
+           /*  vertical-align: top; */
+           border: none;
+         }   
+        .cam:hover{
+            background-position: 0 -20px;
+        }
+       
+        
+        .input_1{
+                border:1px #B8B8B8 solid;
+                width: 540px;
+                height: 36px;
+                font-size: 18px;
+                box-sizing: border-box;
+                /* border-right: 0; */
+                /* border-right: 0; */
+               /*  float:left; */
+
+
+                 }       /*       
+  .input_1:focus .span_1{    将输入焦点移至对象上
+  
+    
+          border:1px #3385FF solid;系统默认颜色就是#3385FF
+  }
+  .input_1:focus{
+      border-right:;
+  } */
