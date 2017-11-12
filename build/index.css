@@ -15,12 +15,12 @@ body {
 	 margin-top: 20px;
     text-align: right;
     padding-right: 360px;
-    animation: bounce 5s ease-in-out infinite .1s; 
+    animation: bounce 5s ease-in-out infinite 2.1s; 
 }
 .title p{
     padding-right: 230px;
     text-align: right;
-    animation: bounceInRight .6s ease-in-out both; 
+    animation: bounceInRight .6s ease-in-out both 2s; 
 }
 
 #main ul li {
