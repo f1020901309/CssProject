@@ -1,11 +1,12 @@
 body{
 	padding:0;
 	margin: 0;
-	width: 1300px;
+	width: 100%;
 }
 
 header{
-	width: 1300px;
+	width: 100%;
+	min-width: 1300px;
 	height: 270px;
 /* 	border: 1px red solid; */
 }
@@ -16,7 +17,7 @@ header a{
 	width: 1300px;
 	height: 60px;
 /* 	border: 1px red solid; */
-	margin-top:30px;
+	margin:30px auto 0;
 	position: relative;
 }
 .div1_header_logo{
@@ -103,6 +104,7 @@ background: url("images/font_header1.png") -422px  no-repeat;
 
 .div2_header{
 	width: 1300px;
+	margin: 0 auto;
 	height: 180px;
 	background-image: url("images/header2_bg.png");
 	background-size: 1300px 180px;
@@ -283,7 +285,8 @@ margin-top: 15px;
 
 
 .body0{
-	width: 1300px;
+	width: 100%;
+	min-width: 1300px;
 	height: 1860px;
 
 }
@@ -308,6 +311,7 @@ cursor: pointer;
 .body1{
 	height: 625px;
 	width: 1300px;
+	margin: 0 auto;
 
 }
 .body1_1{
@@ -479,6 +483,7 @@ color: #C1C1C1;
 .body2{
 	height: 615px;
 	width: 1300px;
+	margin: 0 auto;
 	background: #F7F7F7;
 
 	
@@ -559,9 +564,8 @@ padding: 0;
 .body3{
 	height: 615px;
 	width: 1300px;
+	margin: 0 auto;
 
-
-	
 }
 .body3_1{
 	padding-top: 45px;
@@ -756,7 +760,7 @@ margin: 0px;
 
 
 footer{
-	width: 1300px;
+	min-width: 1300px;
 	height: 170px;
 }
 footer a{
@@ -768,10 +772,13 @@ footer a:hover{
 	background: #3879D9;
 
 }
+
 .div0_footer{
 	height: 170px;
 	width: 940px;
-	margin-left: 165px;}
+	margin-left: 165px;
+	margin: 0 auto;
+}
 .div0_footer  hr{
 	border:1px #DCDCDC dashed;
 }
