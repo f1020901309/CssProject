@@ -44,31 +44,22 @@ body {
     display: none;
 }
 
+
 #main ul a:nth-child(1) li{
-    animation:bounceInLeft .6s ease-in-out both ;   
-}
-#main ul a:nth-child(2) li{
     animation:bounceInLeft .6s ease-in-out both .2s;
 }
-#main ul a:nth-child(3) li{
+#main ul a:nth-child(2) li{
     animation:bounceInLeft .6s ease-in-out both .4s;
 }
-#main ul a:nth-child(4) li{
+#main ul a:nth-child(3) li{
     animation:bounceInLeft .6s ease-in-out both .6s;
 }
-#main ul a:nth-child(5) li{
+#main ul a:nth-child(4) li{
     animation:bounceInLeft .6s ease-in-out both .8s;
 }
 
+
 #main ul a:nth-child(1) li div{
-    top: 100%;
-    right:6%;
-    background: url(images/baidu.jpg) no-repeat;
-    background-size: 100% 100%;
-    width: 500px;
-    height: 265px;
-}
-#main ul a:nth-child(2) li div{
     top: 100%;
     right:3%;
     background: url(images/mhxy.jpg) no-repeat;
@@ -92,7 +83,7 @@ body {
     width: 300px;
     height: 159px;
 }
-#main ul a:nth-child(4) li div{
+#main ul a:nth-child(3) li div{
     bottom: 100%;
     right:10%;
     background: url(images/douban.jpg) no-repeat;
@@ -100,7 +91,7 @@ body {
     width: 500px;
     height: 265px;
 }
-#main ul a:nth-child(5) li div{
+#main ul a:nth-child(4) li div{
     bottom: 100%;
     right:3%;
     background: url(images/elephent.jpg) no-repeat;
@@ -108,7 +99,7 @@ body {
     width: 500px;
     height: 265px;
 }
-// #main ul a:nth-child(5) li{
+// #main ul a:nth-child(4) li{
 //     animation:bounceInLeft .6s ease-in-out both .8s;
 // }
 #main i{
