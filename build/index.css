@@ -22,7 +22,9 @@ body {
     text-align: right;
     animation: bounceInRight .6s ease-in-out both 2s; 
 }
-
+#main{
+	margin-top:150px;	
+}
 #main ul li {
     list-style: none;
     text-align: right;
