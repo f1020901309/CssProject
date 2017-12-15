@@ -1,10 +1,14 @@
-body{
+*{
 	margin: 0;
 	padding:0;
+}
+body{
 	background: #F5F7FB;
 }
 .header{
-	width: 1366px;
+	margin:0 auto;
+	width:100%;
+	min-width: 1366px;
 	padding: 365px;
 	margin: 0;
 	padding:0;
@@ -490,7 +494,9 @@ color:white;
 
 
 .body0{
-	width: 1366px;
+	margin:0 auto;
+	width:100%;
+	min-width: 1366px;
 	height: 0px;
 /* 	border: 1px red solid; */
 }
@@ -1305,9 +1311,11 @@ color: #F24854;
 
 
 .footer1{
-width: 1366px;
-height: 580px;
-position: relative;
+	margin:0 auto;
+	width:100%;
+	min-width: 1366px;
+	height: 580px;
+	position: relative;
 }
 
 .donghua{
